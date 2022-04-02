@@ -1,0 +1,7 @@
+total=int(input("Hello Welcome to the tip calulator! What is the total of the bill? "))
+tip=int(input("How much tip would you like to give? 10, 12, or 15? No need to use a percnt sign /n "))
+people=int(input("How many people to split the bill? "))
+amount=(total/people)
+tipped=(tip/100 * amount)
+bill=float(amount + tipped)
+print(format(bill, '.2f'))
